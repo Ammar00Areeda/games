@@ -7,7 +7,7 @@ return"this game is available"}
 
 alert("Hey! wlecome to Games page " )
 
-var game = prompt("what is the game you looking for?")
+var game = prompt("what is the game you looking for (shoter,moba)?")
 
 
 
@@ -15,6 +15,8 @@ var game = prompt("what is the game you looking for?")
 if(game == "shoter"){
   console.log( print())
   var times = prompt("how many times you want to see the pic")
+  
+
 for(var i =0;i<times;i++){
  
 
